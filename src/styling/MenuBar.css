@@ -1,0 +1,62 @@
+/* Menu Wrapper */
+
+.MenuBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: var(--padding-small) var(--padding-medium);
+    display: flex;
+    align-items: center;
+    background-color: rgb(118, 66, 66);
+    justify-content: space-between;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+
+/* Menu Logo */
+
+.MenuBar-logo img {
+    height: var(--logo-size);
+    display: block;
+}
+
+/* Menu Navigation List */
+
+.MenuBar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: var(--navbar-spacing); /* Space between menu items */
+}
+
+.MenuBar-nav li {
+    display: inline;
+}
+
+.MenuBar-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.MenuBar-nav a:hover {
+    color: #1abc9c;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .MenuBar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .MenuBar-nav {
+        flex-direction: column;
+        gap: var(--navbar-spacing);
+        padding: var(--padding-small) var(--padding-small);
+    }
+}

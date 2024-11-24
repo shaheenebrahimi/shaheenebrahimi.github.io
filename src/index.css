@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Global Variables */
+:root {
+  --padding-small: 8px;
+  --padding-medium: 24px;
+  --padding-large: 48px;
+  --navbar-height: 72px;
+  --navbar-spacing: 16px;
+  --logo-size: 64px;
+}
