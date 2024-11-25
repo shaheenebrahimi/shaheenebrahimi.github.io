@@ -2,7 +2,7 @@
 import '../styling/MenuBar.css';
 
 // resource imports
-import logo from '../resources/Logo-Dark.png'
+import logo from '../assets/Logo-Dark.png'
 
 function MenuBar() {
     return (

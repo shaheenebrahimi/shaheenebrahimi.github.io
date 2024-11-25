@@ -7,7 +7,7 @@ import FlipTile from './FlipTile';
 // styling imports
 import '../styling/App.css';
 
-import logo from '../resources/Logo-Dark.png'
+import logo from '../assets/Logo-Dark.png'
 
 function App() {
   return (

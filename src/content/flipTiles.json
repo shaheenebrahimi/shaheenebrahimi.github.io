@@ -1,0 +1,14 @@
+[
+    {
+        "image": "Logo-Dark.png",
+        "title": "hey",
+        "description": "there",
+        "link": "https://www.google.com"
+    },
+    {
+        "image": "Logo-Light.png",
+        "title": "my",
+        "description": "name",
+        "link": "https://www.google.com"
+    }
+]

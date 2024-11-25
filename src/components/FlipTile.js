@@ -3,17 +3,18 @@
 // styling imports
 import '../styling/FlipTile.css';
 
-function FlipTile({resource, content}) {
+function FlipTile({image, title, description, link}) {
+
     return (
-        <div class="FlipTile">
-        <div class="FlipTile-inner">
-          <div class="FlipTile-front">
-            <img src={resource}/>
+        <div className="FlipTile">
+        <div className="FlipTile-inner">
+          <div className="FlipTile-front">
+            <img src={image}/>
           </div>
-          <div class="FlipTile-back">
-            <h1>John Doe</h1> 
-            <p>Architect & Engineer</p> 
-            <p>{content}</p>
+          <div className="FlipTile-back">
+            <h1>{title}</h1> 
+            <p>{description}</p>
+            <a href={link} target="_blank">GitHub</a>
           </div>
         </div>
       </div>

@@ -5,18 +5,41 @@ import FlipTile from './FlipTile';
 import '../styling/TileGrid.css';
 
 // resource imports
-import logo from '../resources/Logo-Dark.png'
+import logo from '../assets/Logo-Dark.png'
 
+// content imports
+import content from '../content/flipTiles.json';
+import { useEffect, useState} from 'react';
 
 function TileGrid() {
+
+    const images = require.context('../assets', false, /\.(png|jpe?g|svg)$/);
+
+    function getImagePath(imageName) {
+    try {
+        return images(`./${imageName}`);
+    } catch (err) {
+        console.error(`Image not found: ${imageName}`);
+        return null;
+    }
+    }
+
+    const tiles = content.map((item, index) => {
+        const imagePath = getImagePath(item.image); // Dynamically resolve the image path
+        return (
+          <FlipTile
+            key={`tile-${index}`}
+            image={imagePath}
+            title={item.title}
+            description={item.description}
+            link={item.link}
+          />
+        );
+      });
+
     return (
         <div className="TileGrid">
-            <FlipTile resource={logo} content={"A"}/>
-            <FlipTile resource={logo} content={"B"}/>
-            <FlipTile resource={logo} content={"C"}/>
-            <FlipTile resource={logo} content={"D"}/>
-            <FlipTile resource={logo} content={"E"}/>
-            <FlipTile resource={logo} content={"F"}/>
+            {tiles}
         </div>
     );
   }
