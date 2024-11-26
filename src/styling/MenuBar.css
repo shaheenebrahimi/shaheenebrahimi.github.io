@@ -51,7 +51,7 @@
 }
 
 /* Responsive Design */
-
+/* 
 @media (max-width: 768px) {
     .MenuBar {
         flex-direction: column;
@@ -63,4 +63,4 @@
         gap: var(--navbar-spacing);
         padding: var(--padding-small) var(--padding-small);
     }
-}
+} */
