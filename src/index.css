@@ -12,12 +12,39 @@ code {
     monospace;
 }
 
+/* Global Button Attributes */
+.Button {
+  background-color: var(--primary-color);
+  color: var(--foreground-color);
+  border: 2px solid var(--foreground-color);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.Button:hover {
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+}
+
 /* Global Variables */
 :root {
+  /* Padding */
   --padding-small: 8px;
   --padding-medium: 24px;
   --padding-large: 48px;
+
+  /* Navbar */
   --navbar-height: 72px;
   --navbar-spacing: 16px;
+
+  /* Logo */
   --logo-size: 64px;
+
+  /* Colors */
+  --background-color: #3B3A4A;
+  --foreground-color: #F5F9F8;
+  --primary-color: #595168;
+  --secondary-color: #E5C49C;
+  --tertiary-color: #252330;
 }

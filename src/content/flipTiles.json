@@ -1,14 +1,58 @@
 [
     {
-        "image": "Logo-Dark.png",
-        "title": "hey",
-        "description": "there",
-        "link": "https://www.google.com"
+        "title": "Cloth Simulation",
+        "description": "Simulate a cloth being moved by a sphere with Implicit Euler. Coming Soon...",
+        "tags": ["C++", "OpenGL"],
+        "image": "Logo-Light.png",
+        "link": ""
     },
     {
-        "image": "Logo-Light.png",
-        "title": "my",
-        "description": "name",
-        "link": "https://www.google.com"
+        "title": "Raytracing",
+        "description": "Generate CPU raytraced scenes. Support for Implicit Ellipses and Meshes",
+        "tags": ["C++"],
+        "image": "Raytracing.png",
+        "link": "https://github.com/shaheenebrahimi/Raytracing"
+    },
+    {
+        "title": "Inverse Kinematics",
+        "description": "Compute N-link inverse kinematics using Gradient Descent, Newton's Method, and BFGS",
+        "tags": ["C++", "OpenGL"],
+        "image": "InverseKinematics.png",
+        "link": "https://github.com/shaheenebrahimi/ComputerAnimation"
+    },
+    {
+        "title": "DynamicAO",
+        "description": "Graduate Thesis: Compute real-time per-fragment ambient occlusion in dynamic meshes",
+        "tags": ["C++", "CUDA", "OpenGL", "Deep Learning"],
+        "image": "AmbientOcclusion.png",
+        "link": "https://github.com/shaheenebrahimi/DynamicAO"
+    },
+    {
+        "title": "Identifying Concentration States",
+        "description": "Undergrad Thesis: Use Gradient Boosting algorithm to determine concentration states from EEG data",
+        "tags": ["Python", "Machine Learning"],
+        "image": "Undergrad.jpg",
+        "link": "https://github.com/shaheenebrahimi/UndergraduateThesis"
+    },
+    {
+        "title": "NeRF",
+        "description": "Implementation of the Neural Radiance Field research paper to synthesize novel views",
+        "tags": ["Python", "Keras"],
+        "image": "NeRF.png",
+        "link": "https://github.com/shaheenebrahimi/NeRF"
+    },
+    {
+        "title": "Mechanical Integrator",
+        "description": "Automatically compute integrals of an arbitrary function using mechanical principles",
+        "tags": ["Python", "Embedded Systems"],
+        "image": "MechanicalIntegrator.png",
+        "link": "https://github.com/shaheenebrahimi/MechanicalIntegrator"
+    },
+    {
+        "title": "Poisson Blending",
+        "description": "Take a source image and apply a section to a target image seamlessly by matching gradients",
+        "tags": ["Python"],
+        "image": "PoissonBlending.jpg",
+        "link": "https://github.com/shaheenebrahimi/ComputationalPhotography"
     }
 ]

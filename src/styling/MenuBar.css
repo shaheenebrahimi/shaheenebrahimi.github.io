@@ -8,7 +8,8 @@
     padding: var(--padding-small) var(--padding-medium);
     display: flex;
     align-items: center;
-    background-color: rgb(118, 66, 66);
+    /* background-color: rgb(118, 66, 66); */
+    background-color: var(--primary-color);
     justify-content: space-between;
     box-sizing: border-box;
     z-index: 9999;
@@ -33,17 +34,20 @@
 
 .MenuBar-nav li {
     display: inline;
+    line-height: 0px;
 }
 
 .MenuBar-nav a {
+    padding: 0px;
     text-decoration: none;
-    color: #fff;
-    font-size: 16px;
+    /* color: #fff; */
+    color: var(--foreground-color);
     transition: color 0.3s ease;
 }
 
 .MenuBar-nav a:hover {
-    color: #1abc9c;
+    color: var(--secondary-color);
+    cursor: pointer;
 }
 
 /* Responsive Design */

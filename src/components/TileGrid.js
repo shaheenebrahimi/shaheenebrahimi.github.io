@@ -32,6 +32,7 @@ function TileGrid() {
             image={imagePath}
             title={item.title}
             description={item.description}
+            tags={item.tags.join(", ")}
             link={item.link}
           />
         );
