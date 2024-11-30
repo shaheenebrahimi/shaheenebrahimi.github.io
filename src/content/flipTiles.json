@@ -3,8 +3,8 @@
         "title": "Cloth Simulation",
         "description": "Simulate a cloth being moved by a sphere with Implicit Euler. Coming Soon...",
         "tags": ["C++", "OpenGL"],
-        "image": "Logo-Light.png",
-        "link": ""
+        "image": "ClothSimulation.png",
+        "link": "https://github.com/shaheenebrahimi/ClothSimulation"
     },
     {
         "title": "Raytracing",
