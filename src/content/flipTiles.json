@@ -1,7 +1,14 @@
 [
     {
+        "title": "DynamicAO",
+        "description": "Graduate Thesis: Compute real-time per-fragment ambient occlusion in dynamic meshes",
+        "tags": ["C++", "CUDA", "OpenGL", "Deep Learning"],
+        "image": "AmbientOcclusion.png",
+        "link": "https://github.com/shaheenebrahimi/DynamicAO"
+    }, 
+    {
         "title": "Cloth Simulation",
-        "description": "Simulate a cloth being moved by a sphere with Implicit Euler. Coming Soon...",
+        "description": "Simulate a cloth and sphere collisions using Implicit Euler and spare matrices.",
         "tags": ["C++", "OpenGL"],
         "image": "ClothSimulation.png",
         "link": "https://github.com/shaheenebrahimi/ClothSimulation"
@@ -14,6 +21,13 @@
         "link": "https://github.com/shaheenebrahimi/Raytracing"
     },
     {
+        "title": "NeRF",
+        "description": "Implementation of the Neural Radiance Field research paper to synthesize novel views",
+        "tags": ["Python", "Keras"],
+        "image": "NeRF.png",
+        "link": "https://github.com/shaheenebrahimi/NeRF"
+    },
+    {
         "title": "Inverse Kinematics",
         "description": "Compute N-link inverse kinematics using Gradient Descent, Newton's Method, and BFGS",
         "tags": ["C++", "OpenGL"],
@@ -21,25 +35,25 @@
         "link": "https://github.com/shaheenebrahimi/ComputerAnimation"
     },
     {
-        "title": "DynamicAO",
-        "description": "Graduate Thesis: Compute real-time per-fragment ambient occlusion in dynamic meshes",
-        "tags": ["C++", "CUDA", "OpenGL", "Deep Learning"],
-        "image": "AmbientOcclusion.png",
-        "link": "https://github.com/shaheenebrahimi/DynamicAO"
+        "title": "Poisson Blending",
+        "description": "Take a source image and apply a section to a target image seamlessly by matching gradients",
+        "tags": ["Python", "Computational Photography"],
+        "image": "PoissonBlending.jpg",
+        "link": "https://github.com/shaheenebrahimi/ComputationalPhotography"
     },
     {
-        "title": "Identifying Concentration States",
-        "description": "Undergrad Thesis: Use Gradient Boosting algorithm to determine concentration states from EEG data",
-        "tags": ["Python", "Machine Learning"],
-        "image": "Undergrad.jpg",
-        "link": "https://github.com/shaheenebrahimi/UndergraduateThesis"
+        "title": "Simulating Autonomous Vehicles",
+        "description": "Research project to simulate a vision-based approach for an autonomous vehicle using Segmentation and Pure Pursuit PID controller",
+        "tags": ["Python", "Computer Vision", "Control Systems"],
+        "image": "AutonomousVehicle.png",
+        "link": "https://github.com/shaheenebrahimi/AutonomousVehicle"
     },
     {
-        "title": "NeRF",
-        "description": "Implementation of the Neural Radiance Field research paper to synthesize novel views",
-        "tags": ["Python", "Keras"],
-        "image": "NeRF.png",
-        "link": "https://github.com/shaheenebrahimi/NeRF"
+        "title": "Differential Drive Mobile Robot",
+        "description": "Simulate a DDMR to navigate an arbitrary map using Probalistic Roadmap (PRM)",
+        "tags": ["Python", "ROS2", "Control Systems"],
+        "image": "DDMR.png",
+        "link": "https://github.com/shaheenebrahimi/DDMR"
     },
     {
         "title": "Mechanical Integrator",
@@ -49,10 +63,11 @@
         "link": "https://github.com/shaheenebrahimi/MechanicalIntegrator"
     },
     {
-        "title": "Poisson Blending",
-        "description": "Take a source image and apply a section to a target image seamlessly by matching gradients",
-        "tags": ["Python"],
-        "image": "PoissonBlending.jpg",
-        "link": "https://github.com/shaheenebrahimi/ComputationalPhotography"
+        "title": "Identifying Concentration States",
+        "description": "Undergrad Thesis: Use Gradient Boosting algorithm to determine concentration states from EEG data",
+        "tags": ["Python", "Machine Learning"],
+        "image": "Undergrad.jpg",
+        "link": "https://github.com/shaheenebrahimi/UndergraduateThesis"
     }
+    
 ]
