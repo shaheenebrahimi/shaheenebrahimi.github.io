@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.62db9591.css",
-    "main.js": "/static/js/main.11fbbe1b.js",
+    "main.js": "/static/js/main.f5cd2dc4.js",
+    "static/media/AutonomousVehicle.png": "/static/media/AutonomousVehicle.e7e7a0915af92b3810fd.png",
     "static/media/MechanicalIntegrator.png": "/static/media/MechanicalIntegrator.33f7a8b33dca5f55f7e7.png",
     "static/media/Undergrad.jpg": "/static/media/Undergrad.8f905c671375ee88bc17.jpg",
+    "static/media/DDMR.png": "/static/media/DDMR.cc7db91c1f6ffa0f3db0.png",
     "static/media/NeRF.png": "/static/media/NeRF.773b7a72ad59dbba9c7d.png",
     "static/media/ClothSimulation.png": "/static/media/ClothSimulation.1ea6abfc40e3febe4361.png",
     "static/media/InverseKinematics.png": "/static/media/InverseKinematics.8f819ce089e5418f4849.png",
@@ -13,10 +15,10 @@
     "static/media/Logo-Dark.png": "/static/media/Logo-Dark.07f18269e80ad669a36e.png",
     "index.html": "/index.html",
     "main.62db9591.css.map": "/static/css/main.62db9591.css.map",
-    "main.11fbbe1b.js.map": "/static/js/main.11fbbe1b.js.map"
+    "main.f5cd2dc4.js.map": "/static/js/main.f5cd2dc4.js.map"
   },
   "entrypoints": [
     "static/css/main.62db9591.css",
-    "static/js/main.11fbbe1b.js"
+    "static/js/main.f5cd2dc4.js"
   ]
 }
